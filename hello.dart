@@ -10,4 +10,8 @@ void main(){
     int age = int.parse(stdin.readLineSync()!);
     print("You are $age years old.");
 
+    stdout.write("Enter your favorite programming language: ");
+    String language = stdin.readLineSync()!;
+    print("Your favorite programming language is $language.");
+
 }
