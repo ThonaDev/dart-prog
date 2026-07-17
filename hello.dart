@@ -13,6 +13,9 @@ void main(){
     stdout.write("Enter your favorite programming language: ");
     String language = stdin.readLineSync()!;
     print("Your favorite programming language is $language.");
-    //
+    
+    stdout.write("Enter your favorite number: ");
+    int favoriteNumber = int.parse(stdin.readLineSync()!);
+    print("Your favorite number is $favoriteNumber.");
 
 }
