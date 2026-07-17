@@ -18,4 +18,8 @@ void main(){
     int favoriteNumber = int.parse(stdin.readLineSync()!);
     print("Your favorite number is $favoriteNumber.");
 
+    stdout.write("Enter your favorite color: ");
+    String color = stdin.readLineSync()!;
+    print("Your favorite color is $color");
+
 }
