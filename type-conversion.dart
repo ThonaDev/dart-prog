@@ -8,4 +8,9 @@ void main(){
   int num = int.parse(text);
   print("The value of num is: $num");
   print("The type of num is: ${num.runtimeType}");
+
+  // convert from int to double
+  int number = 168;
+  double numberConverted = number.toDouble();
+  print("The value of numberConverted is: $numberConverted");
 }
