@@ -2,6 +2,9 @@ void main(){
   // using var to declare a variable
   var name = "Ben";
   var age = 21;
+
+  print(name);
+  print(age);
   var isStudent = true;
   isStudent = false;
 
