@@ -18,4 +18,10 @@ void main(){
   print("The value of a is: $a");
   print("The value of b is: $b");
   print("The sum of a and b is: ${a + b}");
+
+  print("---------------------------------------------");
+  // Variable reassignment (changing the value of variable)
+  print("The previous name was: $name");
+  name = "Thona";
+  print("The new name is: $name");
 }
