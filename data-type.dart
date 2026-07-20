@@ -20,4 +20,14 @@ void main(){
   print("My name is: " + name);
   // we use $ to access the value of a variable inside a string.
   print("My name is: $name");
+
+  // dynamic type
+  dynamic dyna = 10;
+  print("The value of dyna is: $dyna");
+
+  dyna = "Hello";
+  print("The value of dyna is: $dyna");
+
+  dyna = 10.5;
+  print("The value of dyna is: $dyna");
 }
