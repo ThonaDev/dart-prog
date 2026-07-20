@@ -24,4 +24,16 @@ void main(){
   print("The previous name was: $name");
   name = "Thona";
   print("The new name is: $name");
+
+  print("---------------------------------------------");
+  String text = "2.5/4.9";
+    var arr = text.split("/");
+    double num1 = double.parse(arr[0]);
+    double num2 = double.parse(arr[1]);
+
+    print("The value of num1 is: $num1");
+    print("The value of num2 is: $num2");
+    
+
+
 }
