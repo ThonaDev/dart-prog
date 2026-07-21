@@ -40,4 +40,13 @@ void main(){
     print(k);
     k++;
   }while(k<=10);
+
+
+  print("---------- break -----------");
+  for(int i=1; i<10; i++){
+    if(i==5){
+      break;
+    }
+    print(i);
+  }
 }
