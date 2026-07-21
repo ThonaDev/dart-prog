@@ -17,4 +17,12 @@ void main(){
   for(int i=1; i<=10; i+=2){
     print(i);
   }
+
+  print("------- while loop ----------");
+  int i = 1;
+  while(i<=10){
+    print(i);
+
+    i++;
+  } 
 }
