@@ -29,4 +29,34 @@ void main(){
   print("Score added by 15: $score");
   score -= 20;
   print("Score subtraction by 20: ${score}");
+
+  print("------------ Practice 3 ---------------");
+
+  /*
+  Write a program that checks these expressions and prints the results:
+  10 > 5
+  7 == 8
+  20 != 10
+  15 <= 15
+  */
+   
+   var x = 10;
+   var y = 5;
+
+   if(x > y){
+      print("Number $x is greater than $y.");
+   }
+   else{
+      print("Number $y is greater than $x.");
+   }
+
+   x = 7; 
+   y = 8;
+   if(x == y){
+      print("The value of x is equal to y!");
+   }
+   else{
+      print("The value of x do not eqaul to y!");
+   }
+
 }
