@@ -26,10 +26,18 @@ void main(){
     i++;
   } 
 
-  int j = 1;
+  /*int j = 1;
   while(j<2){
     print(j);
     // if we missed j (incre)
     // it cuz infinite loop
-  }
+  }*/
+
+
+  print("--------- do while loop ----------");
+  int k=1;
+  do{
+    print(k);
+    k++;
+  }while(k<=10);
 }
