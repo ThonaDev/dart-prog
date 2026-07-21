@@ -25,4 +25,11 @@ void main(){
 
     i++;
   } 
+
+  int j = 1;
+  while(j<2){
+    print(j);
+    // if we missed j (incre)
+    // it cuz infinite loop
+  }
 }
