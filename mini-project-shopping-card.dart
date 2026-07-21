@@ -20,4 +20,13 @@ void main(){
   print("Division: ${a / b}");
   print("Integer Division: ${a ~/ b}");
   print("Modulus: ${a % b}");
+
+  print("------------ Practice 2 ---------------");
+  int score = 80;
+
+  print("Original score: $score");
+  score += 15;
+  print("Score added by 15: $score");
+  score -= 20;
+  print("Score subtraction by 20: ${score}");
 }
