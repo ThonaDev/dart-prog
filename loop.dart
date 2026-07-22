@@ -84,4 +84,14 @@ void main(){
       print(i);
     }
   }
+
+
+  // calucate the numbers 
+  print("Sum number in loop");
+  int sum = 0;
+  for(int i=1; i<=2; i++){
+    sum += i;
+  }
+  // 1 + 2 + 3 + 4 + 5
+  print("The sum of numbers is: $sum");
 }
