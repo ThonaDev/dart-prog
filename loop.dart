@@ -74,4 +74,14 @@ void main(){
       print("$i x $j = ${ i * j}");
     }
   }
+
+
+  // loop with condition
+  // print only the even numbers.
+  print("--------- pirnt only even number ---------");
+  for(int i=1; i<=10; i++){
+    if(i % 2 == 0){
+      print(i);
+    }
+  }
 }
