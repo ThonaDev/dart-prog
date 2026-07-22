@@ -106,4 +106,20 @@ void main(){
   }
 
   print(largestNum);
+
+
+  // count down 
+  /*
+    5
+    4
+    3
+    2
+    1
+  */
+  
+  print("----- Count down new year -----");
+  for(int i=5; i>=0; i--){
+    print(i);
+  }
+  print("Happy new year!!!");
 }
