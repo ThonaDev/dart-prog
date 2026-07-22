@@ -94,4 +94,16 @@ void main(){
   }
   // 1 + 2 + 3 + 4 + 5
   print("The sum of numbers is: $sum");
+
+
+  // find the largest number.
+  int largestNum = 0;
+  print("---------| find the largest number |----------");
+  for(int num = 1; num <= 30; num++){
+      if(largestNum < num){
+        largestNum = num;
+      }
+  }
+
+  print(largestNum);
 }
